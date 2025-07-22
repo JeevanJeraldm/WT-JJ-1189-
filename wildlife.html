@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wildlife Conservation Site</title>
+    <style>
+        body {
+            background-color: #f3fff3;
+            color: #204020;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 10px;
+        }
+        header, footer {
+            background-color: #cdeacc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: darkgreen;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px 0;
+        }
+        img {
+            width: 300px;
+        }
+        table, th, td {
+            border: 1px solid darkgreen;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        table {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🌿 Wildlife Conservation</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#species">Species</a>
+            <a href="#media">Media</a>
+            <a href="#join">Join Us</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Wildlife Conservation</h2>
+        <p>Wildlife conservation involves protecting animals and their habitats. It is essential to preserve biodiversity and maintain a balanced ecosystem.</p>
+        <p>Through global cooperation and local action, we aim to reduce threats like habitat destruction, poaching, and climate change.</p>
+    </section>
+
+    <!-- Endangered Species Section -->
+    <section id="species">
+        <h2>Endangered Species</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/African_Elephant_8.jpg" alt="Asian Elephant">
+        <p><strong>Asian Elephant:</strong> These gentle giants are endangered due to habitat loss and human conflict.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="Tiger">
+        <p><strong>Tiger:</strong> Tigers are critically endangered due to poaching and forest destruction.</p>
+        
+        <table>
+            <caption><strong>Species and Status</strong></caption>
+            <tr>
+                <th>Animal</th>
+                <th>Status</th>
+                <th>Habitat</th>
+            </tr>
+            <tr>
+                <td>Asian Elephant</td>
+                <td>Endangered</td>
+                <td>Forests, Grasslands</td>
+            </tr>
+            <tr>
+                <td>Tiger</td>
+                <td>Endangered</td>
+                <td>Forests</td>
+            </tr>
+            <tr>
+                <td>Snow Leopard</td>
+                <td>Vulnerable</td>
+                <td>Mountains</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Learn with Media</h2>
+
+        <h3>🎵 Listen to Nature</h3>
+        <audio controls>
+            <source src="https://pronunciationstudio.com/wp-content/uploads/2016/02/Audio-Introduction-0.1.mp3" type="audio/mp3">
+            Your browser does not support audio.
+        </audio>
+
+        <h3>🎥 Watch a Wildlife Video</h3>
+        <video width="320" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join">
+        <h2>Join the Conservation Mission</h2>
+
+        <form method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="reason">Why do you care about conservation?</label><br>
+            <textarea id="reason" name="reason" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Join Now">
+        </form>
+
+        <p>📧 <a href="mailto:help@wildlife.org">Email Us</a> | ☎ <a href="tel:+919952232141">Call Us</a></p>
+    </section>
+
+    <!-- List Section -->
+    <section>
+        <h2>How You Can Help</h2>
+
+        <h3>📌 Steps to Contribute</h3>
+        <ol>
+            <li>Learn about endangered species
+                <ol>
+                    <li>Read articles</li>
+                    <li>Attend webinars</li>
+                </ol>
+            </li>
+            <li>Volunteer with organizations</li>
+            <li>Spread awareness through social media</li>
+        </ol>
+
+        <h3>✅ Benefits of Conservation</h3>
+        <ul>
+            <li>Protects biodiversity
+                <ul>
+                    <li>Prevents extinction</li>
+                    <li>Maintains ecosystem balance</li>
+                </ul>
+            </li>
+            <li>Boosts ecotourism</li>
+            <li>Supports local communities</li>
+        </ul>
+
+        <h3>🔍 Conservation Methods</h3>
+        <dl>
+            <dt>Habitat Protection</dt>
+            <dd>Preserving forests, wetlands, and ecosystems.</dd>
+
+            <dt>Captive Breeding</dt>
+            <dd>Breeding endangered species in safe environments.</dd>
+
+            <dt>Anti-Poaching</dt>
+            <dd>Using technology and patrols to stop illegal hunting.</dd>
+        </dl>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Wildlife Conservation | <a href="#top">Back to Top</a></p>
+    </footer>
+
+</body>
+</html>
